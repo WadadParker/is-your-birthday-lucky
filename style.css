@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --primary-color: #22d3ee;
+    --dark-grey: #f1f5f9;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: var(--dark-grey);
+    font-size: x-large;
+}
+#birthday, #lucky-number {
+    display: block;
+    margin: auto;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    max-width: 15rem;
+    
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-color: transparent;
+    border-radius: 1.1rem;
+    margin:1rem 1rem;
+    background-color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+p {
+    font-weight: 3rem;
+}
+
+#smaller {
+   font-size: 0.7rem;
+   display: block;
+   margin-top: 10rem;
+
+}
